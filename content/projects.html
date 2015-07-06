@@ -1,0 +1,61 @@
+---
+title: Projects
+description: Private Projects
+---
+
+{% extends "columns.j2" %}
+
+{% block main %}
+## Coding
+
+### TextBrowser
+
+A simple Browser for Android phones. By default external CSS, images and
+JavaScript isn’t enabled. This app was written to help bandwidth impaired
+users (bad data plans or GSM/GPRS/UMTS coverage). This app is not yet in the
+Google Play Store nor is the source code on github.
+
+* [Screenshot 1]({{media_url('img/textbrowser1.png')}})
+* [Screenshot 2]({{media_url('img/textbrowser2.png')}})
+* [APK file]({{media_url('bin/TextBrowser-release.apk')}}) 
+
+### youtube-fetch
+
+A Python script which can be run via cron to download new subscription videos
+for a user. It uses youtube-dl in the background. Again this is for the
+bandwidth impaired who want to watch videos without buffering or people who want
+to easily watch new videos on their TV (via a network media player or HTPC).
+
+* [Github](https://github.com/jbob/youtube-fetch)
+
+### gewitter
+
+A minimalistic Twitter Client for Linux written in Vala, using GTK3. This
+project exists mainly, because I wanted to try out Vala.
+
+* [Screenshot]({{media_url('img/gewitter.png')}})
+* [Github](https://github.com/jbob/gewitter)
+
+## Other
+
+### lima-city Co-Admin
+
+I’m a Knight (Co-Admin) at [lima-city.de](https://www.lima-city.de), a big German
+free web hosting service.
+
+### Nethack Let’s Play
+
+I’ve played a bit of Nethack and uploaded it to
+[Youtube](http://www.youtube.com/playlist?list=PLkM5wSDBvrD_BIiiRurpWFvDNt3Vt-IM_).
+
+### Minecraft Server Co-Admin
+
+I used to be a Co-Admin for a small [Minecraft
+Server](http://hack-center.de/minecraft/). 
+
+* [Github repository](https://github.com/jbob/minecraft-hp) for the homepage
+{% endblock main %}
+
+{% block sidebar %}
+![Phone]({{media_url('img/diode.jpg')}})
+{% endblock sidebar %}

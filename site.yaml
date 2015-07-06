@@ -1,0 +1,27 @@
+mode: production 
+media_root: media
+media_url: media
+plugins:
+    - hyde.ext.plugins.meta.MetaPlugin
+    - hyde.ext.plugins.auto_extend.AutoExtendPlugin
+    - hyde.ext.plugins.syntext.SyntextPlugin
+    - hyde.ext.plugins.textlinks.TextlinksPlugin
+context:
+    data:
+        site_title: markusko.ch
+        author:
+            name: Markus Koch
+            url: "http://markusko.ch"
+        home_url: index.html
+        menu:
+            - title: Home
+              url: index.html
+            - title: Contact
+              url: contact.html
+            - title: Projects
+              url: projects.html
+
+meta:
+    charset: UTF-8
+    author: Markus Koch
+
